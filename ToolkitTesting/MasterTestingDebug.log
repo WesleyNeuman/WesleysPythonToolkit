@@ -1,1 +1,3 @@
 INFO:root:test_df_stringsplit has successfully evaluated
+INFO:root:test_df_initialoverview has successfully evaluated with no columnlist argument
+INFO:root:test_df_initialoverview has successfully evaluated with a column list argument
