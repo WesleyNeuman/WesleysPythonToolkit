@@ -26,5 +26,5 @@ def df_initialoverview(df: pd.DataFrame, columnlist=[]) -> None:
         if (df[col].dtype == np.int64) | (df[col].dtype == np.float64):
             print(df[col].describe())
         else:
-            print("Number of unique {0} values: {1}".format(col, df[col].unique()))
+            print("Number of unique {0} values: {1}".format(col, df[col].nunique()))
         print()
