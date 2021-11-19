@@ -3,7 +3,7 @@ import ToolkitTesting.ModuleTesting.StringSplitHelper_Test
 import ToolkitTesting.ModuleTesting.DataFrameInitialOverview_Test
 
 #Import Logging
-import logging, os, sys
+import logging, os, sys, traceback
 if os.path.exists('MasterTestingDebug.log'):
     os.remove('MasterTestingDebug.log')
 logging.basicConfig(filename='MasterTestingDebug.log', level=logging.INFO)

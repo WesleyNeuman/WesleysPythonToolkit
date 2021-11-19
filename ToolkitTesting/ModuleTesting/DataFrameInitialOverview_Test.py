@@ -21,6 +21,7 @@ def test_df_initialoverview(visualize_output: bool):
     except Exception as inst:
         logging.error('test_df_initialoverview has failed with no columnlist argument')
         logging.error(inst)
+        logging.error(traceback.format_exc())
 
     try:
         pw.df_initialoverview(test_df, columnlist=['RandomNumber'])
@@ -28,6 +29,7 @@ def test_df_initialoverview(visualize_output: bool):
     except Exception as inst:
         logging.error('test_df_initialoverview has failed with a columnlist argument')
         logging.error(inst)
+        logging.error(traceback.format_exc())
 
     if visualize_output == False:
         sys.stdout = sys.__stdout__
