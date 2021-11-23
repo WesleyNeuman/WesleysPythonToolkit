@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def df_stringsplit_DEPRECATED(df: pd.DataFrame, colname: str, splitchar: str) -> pd.DataFrame:
+def df_stringsplit(df: pd.DataFrame, colname: str, splitchar: str) -> pd.DataFrame:
     """Performs stringsplit on a dataframe column and automatically adds new columns to the dataframe containing the splits"""
 
     # Split on character and rename resulting dataframe columns
@@ -16,7 +16,7 @@ def df_stringsplit_DEPRECATED(df: pd.DataFrame, colname: str, splitchar: str) ->
     return df
 
 
-def df_stringsplit(df: pd.DataFrame, colname: str, splitchar: list) -> pd.DataFrame:
+def df_stringsplit_DEPRECATED(df: pd.DataFrame, colname: str, splitchar: list) -> pd.DataFrame:
     """Performs stringsplit on a dataframe column and automatically adds new columns to the dataframe containing the splits"""
 
     # Create destructable df using column
