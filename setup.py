@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='WesleysPythonToolkit',
-    version='1.0.0',
+    version='1.0.1',
     packages=['WesleysPythonToolkit'],
     url='https://github.com/WesleyNeuman/WesleysPythonToolkit',
     license='Apache 2.0',
