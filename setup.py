@@ -8,5 +8,5 @@ setup(
     license='Apache 2.0',
     author='Wesley Neuman',
     author_email='wgeorgeneuman@gmail.com',
-    description='Tools for doing whatever I need in my python package'
+    description='Tools for doing whatever I need in my python projects'
 )
