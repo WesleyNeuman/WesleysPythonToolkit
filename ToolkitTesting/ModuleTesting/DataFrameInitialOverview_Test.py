@@ -4,7 +4,8 @@ import pandas as pd
 import logging, sys, os
 
 # Import Component
-import WesleysPythonToolkit.PandasWrappers as pw
+import WesleysPythonToolkit as pw
+
 
 # Test Functions
 def test_df_initialoverview(visualize_output: bool):
